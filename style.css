@@ -1,9 +1,30 @@
 * {
   box-sizing: border-box;
-}
-
-body {
   margin: 0;
   padding: 0;
 }
 
+body {
+  font-family: 'Lato', sans-serif;
+}
+
+nav,
+.logo-sec,
+.icons-sec,
+.icons-list,
+.profile-sec,
+.profile-list {
+  display: flex;
+  list-style: none;
+}
+
+nav {
+  background-color: #242526;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+li {
+  align-self: center;
+  padding: 1rem;
+}
